@@ -22,21 +22,12 @@ echo "Actualizando repositorios"
 echo "###########################################################################################"
 sudo xbps-install -S 
 echo "###########################################################################################"
-echo "Instalando Oh My Zsh y Powerlevel10k"
-echo "###########################################################################################"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo "###########################################################################################"
 echo "instalando Fuentes Hack Nerd"
 echo "###########################################################################################"
 wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip
 unzip Hack.zip 
 sudo mv Hack* /usr/share/fonts
 fc-cache -fv
-echo "###########################################################################################"
-echo "Instalando Powerlevel10k"
-echo "###########################################################################################"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 echo "###########################################################################################"
 echo "Limpiando sistema"
 echo "###########################################################################################"
