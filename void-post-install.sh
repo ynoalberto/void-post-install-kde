@@ -43,10 +43,10 @@ echo "##########################################################################
 sudo vkpurge rm all
 sudo xbps-remove -o 
 sudo xbps-remove -O
-sudo xbps-remove -R dhcpcd
 echo "###########################################################################################"
 echo "Activando servicios"
 echo "###########################################################################################"
 sudo ln -s /etc/sv/dbs /var/service
 sudo ln -s /etc/sv/NetworkManager /var/service
 sudo ln -s /etc/sv/sddm /var/service 
+
