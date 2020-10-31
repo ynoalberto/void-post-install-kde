@@ -46,7 +46,7 @@ sudo xbps-remove -O
 echo "###########################################################################################"
 echo "Activando servicios"
 echo "###########################################################################################"
-sudo ln -s /etc/sv/dbs /var/service
+sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/NetworkManager /var/service
 sudo ln -s /etc/sv/sddm /var/service 
 
