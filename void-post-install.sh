@@ -3,7 +3,7 @@ echo "Void Linux Post Install KDE"
 echo "###########################################################################################"
 echo "Actualizando el sistema"
 echo "##########################################################################################"
-sudo xbps-Install -Suy
+sudo xbps-install -Suy
 sudo xbps-install -Suy
 echo "###########################################################################################"
 echo "Instalando componentes del sistema"
