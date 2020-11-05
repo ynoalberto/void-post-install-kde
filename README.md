@@ -4,7 +4,7 @@ Simple scrip instalation with KDE Plasma Desktop
 
 ### Downloading and Running the Script
 
-1. You need install this packages `sudo xbps-install -Su && sudo xbps-install -S git 
+1. You need install this packages `sudo xbps-install -Su && sudo xbps-install -S git `
  
 2. Enter into directory script: `cd void-post-install-kde`
 
