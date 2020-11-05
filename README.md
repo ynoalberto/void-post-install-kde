@@ -1,4 +1,4 @@
-# void-post-install-kde
+# Void Post Install KDE
 Simple scrip instalation with KDE Plasma Desktop
 
 
