@@ -18,5 +18,5 @@ Simple scrip instalation with KDE Plasma Desktop
 
 ### 4. Execute the script with 
 
-'sh void-post-install-kde' 
+`sudo sh void-post-install-kde`
 
