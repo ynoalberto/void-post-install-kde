@@ -8,7 +8,7 @@ sudo xbps-install -Suy
 echo "###########################################################################################"
 echo "Instalando componentes del sistema"
 echo "###########################################################################################"
-sudo xbps-install -Suy NetworkManager vsv xf86-input-libinput xf86-video-amdgpu linux-firmware  gvfs htop bpytop nano mc neofetch gvfs-afc gvfs-mtp gst-plugins-bad1 gst-plugins-good1 gst-plugins-ugly1 pulseaudio pavucontrol pamixer xbacklight setxkbmap zsh git wget curl p7zip ark unzip tar xorg xinit vlc firefox clementine octoxbps kde-cli-tools base-devel mtools android-tools
+sudo xbps-install -Suy NetworkManager vsv xf86-input-libinput  linux-firmware  gvfs htop bpytop nano mc neofetch gvfs-afc gvfs-mtp gst-plugins-bad1 gst-plugins-good1 gst-plugins-ugly1 pulseaudio pavucontrol pamixer xbacklight setxkbmap zsh git wget curl p7zip ark unzip tar xorg xinit vlc firefox clementine octoxbps kde-cli-tools base-devel mtools android-tools
 echo "###########################################################################################"
 echo "Instalando entorno gráfic KDE Plasma"
 echo "###########################################################################################"
